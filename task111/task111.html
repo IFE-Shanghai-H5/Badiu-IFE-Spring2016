@@ -153,19 +153,20 @@
                 <p>密码请为6~16位英文数字</p>
             </div>
             <div>
-                <span>性别：</span>
+                <label>性别：</label>
                 <input id="man" type="radio" name="sex" value="男" checked>
                 <label for="man">男</label>
                 <input id="woman" type="radio" name="sex" value="女">
                 <label for="woman">女</label>
 
-                <span>城市:</span>
+                <label for="city">城市:</label>
                 <select id="city" name="city">
                     <option value="1" selected>上海</option>
                     <option value="2">广州</option>
                     <option value="3">北京</option>
                 </select>
-                <span>爱好：</span>
+
+                <label>爱好：</label>
                 <input type="checkbox" name="hobby" value="sport">
                 <label for="sport">运动</label>
                 <input type="checkbox" name="hobby" value="science">
@@ -173,8 +174,8 @@
                 <input type="checkbox" name="hobby" value="art">
                 <label for="art">艺术</label>
 
-                <span>个人描述:</span>
-                <textarea name="detail" id="detail">这里是个人描述</textarea>
+                <label for="detail">个人描述:</label>
+                <textarea name="detail" id="detail" cols="20" rows="2">这里是个人描述</textarea>
                 <input type="button" name="submit" value="确认提交">
             </div>
         </form>
