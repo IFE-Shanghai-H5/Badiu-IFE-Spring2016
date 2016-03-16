@@ -1,0 +1,20 @@
+/** reset **/
+body,ul,li,input{margin: 0;padding: 0}
+body{font:normal 400 16px '微软雅黑';background-color: rgb(222, 222, 222)}
+a :link{color: rgb(255, 255, 255)}
+a :visited{color: rgb(255, 0, 0)}
+a :hover{ color: rgb(49, 126, 255)}
+a :active{color: rgb(0, 255, 0)}
+
+ul li{list-style: none}
+
+h2{font-size:  1.3rem}
+h3{font-size:  1.0rem}
+h4{font-size:  0.8rem}
+
+
+
+hgroup >h3{color: rgb(138, 138, 138)}
+hgroup span{color: rgb(138, 138, 138);font-size: 0.8rem}
+hgroup .m-title{border-left: solid 5px #777;padding-left: 30px}
+
