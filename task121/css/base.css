@@ -11,10 +11,3 @@ ul li{list-style: none}
 h2{font-size:  1.3rem}
 h3{font-size:  1.0rem}
 h4{font-size:  0.8rem}
-
-
-
-hgroup >h3{color: rgb(138, 138, 138)}
-hgroup span{color: rgb(138, 138, 138);font-size: 0.8rem}
-hgroup .m-title{border-left: solid 5px #777;padding-left: 30px}
-
