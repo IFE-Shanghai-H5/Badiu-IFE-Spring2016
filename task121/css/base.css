@@ -1,5 +1,5 @@
 /** reset **/
-body,ul,li,input{margin: 0;padding: 0}
+body,ul,li,input{margin: 0;padding: 0;text-decoration: none}
 body{font:normal 400 16px '微软雅黑';background-color: rgb(222, 222, 222)}
 a :link{color: rgb(255, 255, 255)}
 a :visited{color: rgb(255, 0, 0)}
