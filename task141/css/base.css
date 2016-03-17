@@ -1,0 +1,34 @@
+*{margin: 0;padding: 0}
+
+body{
+    background-color: #fff;
+}
+.container{
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -100px 0 0 -200px;
+    overflow: hidden;
+}
+
+.left-top,.right-bottom{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color:#fc0;
+}
+.left-top{
+    top:-50px;
+    left: -50px;
+}
+
+.right-bottom{
+    top:50px;
+    left:350px;
+}
