@@ -1,0 +1,151 @@
+.m-header {
+	width: 100%;
+	height: 80px;
+	background-color: #000
+}
+
+.m-logo img {
+	float: left;
+	height: 60px
+}
+
+.m-nav {
+	float: right
+}
+
+.m-nav ul {
+	list-style: none
+}
+
+.m-nav ul li {
+	float: left;
+	margin: 0 10px;
+	line-height: 80px;
+}
+
+.m-nav ul li a {
+	color: #fff;
+	font-size: .8rem
+}
+
+.m-main article,aside {
+	margin: 10px 25px;
+	padding: 25px;
+	border: 1px solid #9f9e9e;
+	background-color: #fff;
+	box-shadow: 2px 2px 5px #9f9e9e
+}
+
+.m-main{
+    /*float: left;*/
+}
+article p {
+	text-indent: 2em
+}
+
+article .m-figures figure {
+	width: 75pt;
+	height: 90pt;
+	border: 1px solid #777
+}
+
+article .m-figures figure figcaption {
+	margin: 5px 0;
+	width: 75pt;
+	height: 20px;
+	text-align: center;
+	font-size: .8rem;
+	line-height: 20px
+}
+
+article .m-figures figure img {
+	margin: 0 10px;
+	width: 5pc;
+	height: 5pc
+}
+
+hgroup span,hgroup>h3 {
+	color: #8a8a8a
+}
+
+hgroup span {
+	font-size: .8rem
+}
+
+hgroup .m-title {
+	padding-left: 30px;
+    /*font-size: 1em;*/
+	border-left: solid 5px #777
+}
+
+.m-table {
+	width: 98%;
+	border: solid #777;
+	border-collapse: collapse;
+	border-width: 1px
+}
+
+.m-table span {
+	float: left
+}
+
+.m-table td {
+	border: solid #777;
+	border-width: 1px
+}
+
+.m-table thead {
+	background-color: #333;
+	color: #fff
+}
+
+.m-table tfoot {
+	background-color: #888
+}
+
+.m-side{
+    float:right;
+    width: 320px;
+	padding: 5px
+}
+
+.m-side .m-formgroup label:first-child {
+	display: inline-block;
+	margin: 5px;
+	margin-right: 15px;
+	width: 40%;
+	vertical-align: top;
+	text-align: right
+}
+
+.m-side .m-tip {
+	margin-top: 2px;
+	margin-left: 42%;
+	color: #9b9b9b;
+	font-size: .8rem
+}
+
+.m-side .m-formgroup textarea {
+	width: 50%;
+	height: 5pc
+}
+
+.m-side form input[type=submit] {
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;
+	background-color: #00f;
+	color: #fff;
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	line-height: 40px
+}
+
+.m-footer {
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 60px
+}
