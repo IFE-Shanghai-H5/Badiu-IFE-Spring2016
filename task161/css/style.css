@@ -266,7 +266,7 @@ header time{
     border-left: solid 3px #72b16a;
     margin: 8px 30px;
 }
-.m-section3>div p{
+.m-section3>div>div>p{
     position: absolute;
     top:215px;
     height: 60px;
@@ -303,22 +303,41 @@ header time{
 .m-section3>div div div{
     font-size: 16px;
 }
-.m-section3>div div div span:first-child{
-    /*margin-top:30px;*/
-    display: inline-block;
-    width: 220px;
-    height: 130px;
-    padding:15px 20px ;
-    background-color: #D45C5B;
+.m-section3>div div div div{
+    float: left;
+    display: block;
 }
-.m-section3>div div div span:last-child{
-    display: inline-block;
-    width: 190px;
+.m-section3>div div div div:first-child{
+    margin-top: 20px;
+    width: 260px;
     height: 160px;
-    line-height: 160px;
-    line-height: 260px;
+    background-color: #d45d5c;
+}
+.m-section3>div div div div:first-child>p{
+    float: left;
+    color: #fff;
+}
+.m-section3>div div div div:first-child>p:nth-child(1){
+    margin: 25px 15px 0 0;
+    font-size: 110px;
+    height: 110px;
+    line-height: 110px;
+    border-right: 2px solid #fff;
+}
+.m-section3>div div div div:first-child>p:nth-child(2){
+    margin-top:40px;
+    font: italic 21px/24px "黑体";
+    width: 160px;
+}
+.m-section3>div div div div:first-child>p:nth-child(3){
+    font: normal 12px/10px "黑体";
+    width: 160px;
+}
+.m-section3>div div div div:last-child{
+    margin: 40px 0 0 20px;
+    width: 140px;
+    height: 160px;
     font: italic 400 14px/16px "黑体";
-    color: #515b5b;
 }
 /** 尾部样式 **/
 footer{
