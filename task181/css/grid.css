@@ -21,27 +21,15 @@
 
 @media screen and (max-width:600px){
     .col-sm-1{
-        width: 16.66%;
+        width: 25%;
     }
     .col-sm-2{
-        width: 33.33%;
-    }
-    .col-sm-3{
         width: 50%;
     }
+    .col-sm-3{
+        width: 75%;
+    }
     .col-sm-4{
-        width: 66.66%;
-    }
-    .col-sm-5{
-        width: 83.33%;
-    }
-    .col-sm-6{
-        width: 100%;
-    }
-    .col-sm-7{
-        width: 100%;
-    }
-    .col-sm-8{
         width: 100%;
     }
 }
