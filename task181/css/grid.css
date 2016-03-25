@@ -1,6 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
 .grid-container{
     width: 100%;
-    max-width: 960px;
+    /*max-width: 960px;*/
+    
 }
 
 .row::before,row::after{
@@ -13,10 +23,10 @@
 
 [class*='col-']{
     float: left;
-    padding: 1px;
+    padding: 20px;
     min-height: 10px;
     /*border:1px solid #eee;*/
-    box-sizing: border-box; /**IE 6~8 盒子模型*/
+
     outline: 1px solid #999; /**轮廓线不会占据空间，也不一定是矩形。*/
 }
 
