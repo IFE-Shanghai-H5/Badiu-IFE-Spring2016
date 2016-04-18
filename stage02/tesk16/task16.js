@@ -37,10 +37,10 @@ function renderAqiList() {
          nodeHtml.push("<td>" + city + "</td>");
          nodeHtml.push("<td>" + aqiData[city] + "</td>");
         //  nodeHtml.push("<td><button onclick=delBtnHandle('" + city + "')>删除</button></td>");
-         nodeHtml.push("<td><button data-city=" + city + ">删除</button></td>");
+         nodeHtml.push("<td><button data-city='" + city + "'>删除</button></td>");
          nodeHtml.push("</tr>");
-         tableElement.innerHTML = nodeHtml.join("");//指定空格为分隔符
     }
+    tableElement.innerHTML = nodeHtml.join("");//指定空格为分隔符
     // tableElement.innerHTML = items;
 }
 
